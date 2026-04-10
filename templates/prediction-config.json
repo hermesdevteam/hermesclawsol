@@ -1,0 +1,9 @@
+{
+  "program": "hermes-prediction",
+  "parameterizable_fields": {
+    "resolution_fee_bps": { "type": "u16", "min": 50, "max": 500, "default": 200, "description": "Fee taken on market resolution" },
+    "min_bet_amount": { "type": "u64", "min": 100000000, "max": 10000000000, "default": 1000000000, "description": "Minimum bet in HERMES tokens" },
+    "max_duration_seconds": { "type": "i64", "min": 3600, "max": 2592000, "default": 86400, "description": "Maximum market duration (default: 24 hours)" }
+  },
+  "hardcoded": ["PDA derivation seeds", "signer checks", "binary outcome logic", "payout calculation", "oracle/authority resolution"]
+}

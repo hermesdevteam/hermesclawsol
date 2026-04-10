@@ -1,0 +1,8 @@
+{
+  "program": "hermes-treasury",
+  "parameterizable_fields": {
+    "daily_spend_limit_bps": { "type": "u16", "min": 50, "max": 500, "default": 500, "description": "Daily spending limit as basis points of treasury balance" },
+    "monthly_burn_rate_bps": { "type": "u16", "min": 50, "max": 500, "default": 200, "description": "Monthly burn rate as basis points of treasury HERMES holdings" }
+  },
+  "hardcoded": ["PDA derivation seeds", "signer checks", "account validation", "overflow-safe math", "CPI calls"]
+}

@@ -1,0 +1,9 @@
+{
+  "program": "hermes-launchpad",
+  "parameterizable_fields": {
+    "launch_fee_bps": { "type": "u16", "min": 50, "max": 500, "default": 200, "description": "Fee charged on launches in basis points" },
+    "min_contribution": { "type": "u64", "min": 100000000, "max": 10000000000, "default": 1000000000, "description": "Minimum SOL contribution per user" },
+    "max_duration_seconds": { "type": "i64", "min": 86400, "max": 2592000, "default": 604800, "description": "Maximum launch duration (default: 7 days)" }
+  },
+  "hardcoded": ["PDA derivation seeds", "signer checks", "contribution tracking", "finalization logic", "fee distribution"]
+}

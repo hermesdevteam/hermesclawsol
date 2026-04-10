@@ -1,0 +1,10 @@
+{
+  "program": "hermes-staking",
+  "parameterizable_fields": {
+    "reward_rate_bps": { "type": "u16", "min": 1, "max": 5000, "default": 500, "description": "Annual reward rate in basis points (500 = 5% APR)" },
+    "lock_period_seconds": { "type": "i64", "min": 86400, "max": 7776000, "default": 604800, "description": "Minimum stake lock period (default: 7 days)" },
+    "burn_rate_bps": { "type": "u16", "min": 0, "max": 1000, "default": 100, "description": "Percentage of staking fees burned in basis points" },
+    "min_stake_amount": { "type": "u64", "min": 1000000000, "max": 1000000000000, "default": 1000000000, "description": "Minimum stake amount (default: 1 HERMES with 9 decimals)" }
+  },
+  "hardcoded": ["PDA derivation seeds", "signer checks", "account validation", "overflow-safe math", "time-lock enforcement", "reward calculation"]
+}

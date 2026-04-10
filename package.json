@@ -1,0 +1,26 @@
+{
+  "name": "hermesclawsol",
+  "version": "0.1.0",
+  "description": "HermesClawSol - Autonomous Builder Agent Token on Solana",
+  "private": true,
+  "workspaces": [
+    "agent",
+    "app"
+  ],
+  "scripts": {
+    "test": "anchor test",
+    "build": "anchor build",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "agent:start": "cd agent && npm start",
+    "agent:dev": "cd agent && npm run dev"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.0",
+    "chai": "^4.4.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0"
+  }
+}
