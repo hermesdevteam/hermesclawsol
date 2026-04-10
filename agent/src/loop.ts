@@ -3,6 +3,7 @@ import { Deployer } from './deployer';
 import { SecurityGate } from './security-gate';
 import { TreasuryManager } from './treasury';
 import { XBot } from './x-bot';
+import { TelegramBot } from './telegram-bot';
 
 // Programs to deploy in priority order
 const PROGRAM_QUEUE = [
@@ -28,6 +29,7 @@ export class AgentLoop {
   private securityGate: SecurityGate;
   private treasury: TreasuryManager;
   private xBot: XBot;
+  private telegram: TelegramBot;
   private intervalMs: number;
   private deployedPrograms: Set<string> = new Set();
   private consecutiveFailures: number = 0;
@@ -40,6 +42,7 @@ export class AgentLoop {
     this.securityGate = new SecurityGate(this.hermes, this.deployer);
     this.treasury = new TreasuryManager();
     this.xBot = new XBot();
+    this.telegram = new TelegramBot();
     this.intervalMs = parseInt(process.env.AGENT_LOOP_INTERVAL_MS || '21600000', 10); // 6 hours default
   }
 
@@ -53,6 +56,9 @@ export class AgentLoop {
     console.log(`[loop] Programs in queue: ${PROGRAM_QUEUE.length}`);
 
     this.running = true;
+
+    // Announce startup on Telegram
+    await this.telegram.postStartup();
 
     while (this.running) {
       if (this.safeMode) {
@@ -117,6 +123,7 @@ export class AgentLoop {
     if (!securityResult.passed) {
       console.log(`[loop] Security gate blocked ${nextProgram.name}`);
       await this.xBot.postSecurityBlock(nextProgram.name, securityResult.blockedReasons.join('; '));
+      await this.telegram.postSecurityBlock(nextProgram.name, securityResult.blockedReasons.join('; '));
       this.handleFailure(`Security gate blocked ${nextProgram.name}`);
       return;
     }
@@ -146,6 +153,7 @@ export class AgentLoop {
       nextProgram.description,
     );
     await this.xBot.announceDeployment(nextProgram.name, deployResult.programId || '', announcement);
+    await this.telegram.announceDeployment(nextProgram.name, deployResult.programId || 'unknown', nextProgram.description);
 
     // Git commit
     this.deployer.gitCommit(`deploy: ${nextProgram.name} to devnet [${deployResult.programId}]`);

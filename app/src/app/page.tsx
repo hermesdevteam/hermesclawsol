@@ -47,6 +47,10 @@ export default function Home() {
             className="px-4 py-2 border border-[#1e1e2e] text-white rounded-lg text-sm hover:border-[#22c55e] transition-colors">
             Follow on X
           </a>
+          <a href="https://t.me/HermesClawSolBot" target="_blank" rel="noopener noreferrer"
+            className="px-4 py-2 border border-[#1e1e2e] text-white rounded-lg text-sm hover:border-[#22c55e] transition-colors">
+            Telegram
+          </a>
         </div>
       </section>
 

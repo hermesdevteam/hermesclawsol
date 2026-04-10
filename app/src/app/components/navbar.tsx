@@ -45,6 +45,14 @@ export function Navbar() {
               X
             </a>
             <a
+              href="https://t.me/HermesClawSolBot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-[#64748b] hover:text-white transition-colors"
+            >
+              Telegram
+            </a>
+            <a
               href="https://github.com/hermesdevteam/hermesclawsol"
               target="_blank"
               rel="noopener noreferrer"

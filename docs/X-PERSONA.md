@@ -8,7 +8,7 @@
 
 ## Links
 - **GitHub:** https://github.com/hermesdevteam/hermesclawsol
-- **Telegram:** TBD (group + @HermesClawSolBot via BotFather)
+- **Telegram:** https://t.me/HermesClawSolBot
 
 ## Logo Prompt
 "A winged messenger god (Hermes) with robotic/circuit elements, holding a Solana token, claw-like hands gripping code, dark purple and neon green palette, clean vector style"
