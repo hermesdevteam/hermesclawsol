@@ -1,0 +1,33 @@
+{
+  "name": "@hermesclawsol/token-gate",
+  "version": "0.1.0",
+  "description": "Token-gated Telegram bouncer bot for $HERMES on Solana",
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start --port 3001",
+    "bot": "tsx bot/index.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/wallet-adapter-base": "^0.9.0",
+    "@solana/wallet-adapter-react": "^0.15.0",
+    "@solana/wallet-adapter-react-ui": "^0.9.0",
+    "@solana/wallet-adapter-wallets": "^0.19.0",
+    "bs58": "^6.0.0",
+    "grammy": "^1.30.0",
+    "next": "^16.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tweetnacl": "^1.0.3",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
