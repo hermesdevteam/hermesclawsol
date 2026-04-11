@@ -3,7 +3,7 @@ use anchor_lang::system_program;
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnU");
 
-/// Token launchpad: others can launch tokens through the HermesClawSol agent.
+/// Token launchpad: others can launch tokens through the HermesClaw agent.
 /// Contributors send SOL. On finalization, tokens are distributed and a fee goes to treasury.
 #[program]
 pub mod hermes_launchpad {

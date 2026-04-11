@@ -12,8 +12,8 @@ export default function Home() {
         </h1>
         <p className="text-[#64748b]">
           Message{" "}
-          <a href="https://t.me/HermesClawSolBot" className="text-[#7c3aed] hover:underline">
-            @HermesClawSolBot
+          <a href="https://t.me/HermesClawBot" className="text-[#7c3aed] hover:underline">
+            @HermesClawBot
           </a>{" "}
           on Telegram to get started.
         </p>

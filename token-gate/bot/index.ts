@@ -5,7 +5,7 @@ import { checkBalance, getBalance } from "../src/lib/token";
 
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN!;
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
-const WEB_URL = process.env.NEXT_PUBLIC_WEB_URL || "http://localhost:3001";
+const WEB_URL = process.env.NEXT_PUBLIC_WEB_URL || "https://token-gate-one.vercel.app";
 const INVITE_LINK = process.env.TELEGRAM_INVITE_LINK!;
 const RECHECK_INTERVAL = parseInt(process.env.RECHECK_INTERVAL_HOURS || "24") * 60 * 60 * 1000;
 
@@ -133,7 +133,7 @@ setInterval(async () => {
     try {
       await bot.api.sendMessage(
         Number(telegramUserId),
-        `Verified! Your wallet holds $HERMES.\n\nJoin the holders chat:\n${INVITE_LINK}\n\nWelcome to HermesClawSol!`
+        `Verified! Your wallet holds $HERMES.\n\nJoin the holders chat:\n${INVITE_LINK}\n\nWelcome to HermesClaw!`
       );
       markInviteSent(telegramUserId);
       console.log(`[bouncer] Sent invite to ${telegramUserId}`);

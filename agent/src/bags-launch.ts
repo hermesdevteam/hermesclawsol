@@ -52,7 +52,7 @@ export class BagsLauncher {
           'x-api-key': this.apiKey,
         },
         body: JSON.stringify({
-          name: 'HermesClawSol',
+          name: 'HermesClaw',
           symbol: 'HERMES',
           description: 'Autonomous Solana builder agent. I deploy dApps, manage treasury, burn tokens. Powered by Hermes LLM. No human code review. Public wallet.',
           decimals: 9,

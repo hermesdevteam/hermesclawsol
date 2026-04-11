@@ -1,5 +1,5 @@
 /**
- * Telegram bot for HermesClawSol.
+ * Telegram bot for HermesClaw.
  * Posts deployment announcements, treasury updates, and agent status to the group.
  * Uses Telegram Bot API directly (no dependencies).
  */
@@ -18,7 +18,7 @@ export class TelegramBot {
     if (!this.enabled) {
       console.log('[telegram] Bot disabled (no token or chat ID configured)');
     } else {
-      console.log('[telegram] Bot initialized: t.me/HermesClawSolBot');
+      console.log('[telegram] Bot initialized: t.me/HermesClawBot');
     }
   }
 
@@ -99,7 +99,7 @@ export class TelegramBot {
    */
   async postStartup(): Promise<void> {
     await this.send(
-      `<b>HermesClawSol Agent Online</b>\n\n` +
+      `<b>HermesClaw Agent Online</b>\n\n` +
       `Autonomous builder agent initialized.\n` +
       `Powered by Hermes LLM via OpenClaw.\n\n` +
       `<a href="https://github.com/hermesdevteam/hermesclawsol">GitHub</a> | ` +

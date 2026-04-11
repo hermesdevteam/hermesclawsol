@@ -1,4 +1,4 @@
-# HermesClawSol
+# HermesClaw
 
 ## Project Overview
 Autonomous builder agent token on Solana. Replicates the Clawdbotatg.eth model (Base) on Solana, powered by NousResearch Hermes LLM via OpenClaw. $HERMES token launches on bags.fm.

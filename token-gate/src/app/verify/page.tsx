@@ -83,7 +83,7 @@ function VerifyInner() {
         setMessage(
           result.inviteLink
             ? "Verified! Here's your invite link."
-            : "Verified! Check your Telegram DMs from @HermesClawSolBot"
+            : "Verified! Check your Telegram DMs from @HermesClawBot"
         );
       } else {
         setStatus("error");

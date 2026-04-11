@@ -3,7 +3,7 @@
   "parameterizable_fields": {
     "mint_price_lamports": { "type": "u64", "min": 10000000, "max": 10000000000, "default": 100000000, "description": "Price to mint one NFT in lamports" },
     "max_supply": { "type": "u64", "min": 1, "max": 10000, "default": 1000, "description": "Maximum number of NFTs in collection" },
-    "collection_name": { "type": "string", "max_length": 32, "default": "HermesClawSol", "description": "Collection display name" }
+    "collection_name": { "type": "string", "max_length": 32, "default": "HermesClaw", "description": "Collection display name" }
   },
   "hardcoded": ["PDA derivation seeds", "Metaplex metadata CPI", "authority checks", "supply tracking", "treasury fee routing"]
 }

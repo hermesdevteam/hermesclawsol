@@ -6,7 +6,7 @@ const MOCK_LOGS = [
   { ts: "2026-04-10T23:27:00Z", level: "info", source: "treasury", message: "Treasury: GsZUmFzu...ETSNL configured on devnet" },
   { ts: "2026-04-10T23:26:00Z", level: "info", source: "hermes", message: "OpenClaw connection established. Hermes LLM ready." },
   { ts: "2026-04-10T23:25:00Z", level: "info", source: "x-bot", message: "[DRY RUN] X bot initialized. No API keys configured." },
-  { ts: "2026-04-10T23:24:00Z", level: "info", source: "main", message: "HermesClawSol agent starting. Treasury: GsZUmFzuEv6cj5NkfuiP8SG8fhiDwCuf8HZufmoETSNL" },
+  { ts: "2026-04-10T23:24:00Z", level: "info", source: "main", message: "HermesClaw agent starting. Treasury: GsZUmFzuEv6cj5NkfuiP8SG8fhiDwCuf8HZufmoETSNL" },
 ];
 
 const LEVEL_COLORS: Record<string, string> = {

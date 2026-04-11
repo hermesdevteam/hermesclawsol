@@ -17,7 +17,7 @@ async function sendTelegramInvite(telegramUserId: string) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         chat_id: Number(telegramUserId),
-        text: `✅ Verified! Your wallet holds $HERMES.\n\nHere's your invite to the holders chat:\n👉 ${INVITE_LINK}\n\nWelcome to HermesClawSol!`,
+        text: `✅ Verified! Your wallet holds $HERMES.\n\nHere's your invite to the holders chat:\n👉 ${INVITE_LINK}\n\nWelcome to HermesClaw!`,
       }),
     });
     return INVITE_LINK;

@@ -4,7 +4,7 @@ use anchor_lang::system_program;
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnW");
 
 /// Agent-generated NFT collection minting.
-/// Users pay SOL to mint NFTs from the HermesClawSol collection.
+/// Users pay SOL to mint NFTs from the HermesClaw collection.
 /// Mint fees go to treasury.
 #[program]
 pub mod hermes_nft {

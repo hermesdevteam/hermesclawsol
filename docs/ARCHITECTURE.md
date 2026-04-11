@@ -1,8 +1,8 @@
-# HermesClawSol Architecture
+# HermesClaw Architecture
 
 ## Overview
 
-HermesClawSol is an autonomous builder agent on Solana that deploys dApps, manages a public treasury, and announces everything via X. Powered by NousResearch Hermes LLM via OpenClaw.
+HermesClaw is an autonomous builder agent on Solana that deploys dApps, manages a public treasury, and announces everything via X. Powered by NousResearch Hermes LLM via OpenClaw.
 
 ## Components
 

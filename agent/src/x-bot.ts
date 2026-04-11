@@ -1,5 +1,5 @@
 /**
- * X/Twitter bot for HermesClawSol persona.
+ * X/Twitter bot for HermesClaw persona.
  * Posts deployment announcements, treasury updates, and agent status.
  *
  * Rate limits: 17 tweets per 15-minute window (app-level).

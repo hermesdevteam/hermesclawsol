@@ -10,7 +10,7 @@ export function Navbar() {
               H
             </div>
             <Link href="/" className="text-lg font-bold text-white">
-              HermesClawSol
+              HermesClaw
             </Link>
             <span className="text-xs bg-[#7c3aed]/20 text-[#7c3aed] px-2 py-0.5 rounded-full font-mono">
               $HERMES
@@ -45,7 +45,7 @@ export function Navbar() {
               X
             </a>
             <a
-              href="https://t.me/HermesClawSolBot"
+              href="https://t.me/HermesClawBot"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[#64748b] hover:text-white transition-colors"

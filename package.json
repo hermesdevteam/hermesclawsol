@@ -1,7 +1,7 @@
 {
   "name": "hermesclawsol",
   "version": "0.1.0",
-  "description": "HermesClawSol - Autonomous Builder Agent Token on Solana",
+  "description": "HermesClaw - Autonomous Builder Agent Token on Solana",
   "private": true,
   "workspaces": [
     "agent",

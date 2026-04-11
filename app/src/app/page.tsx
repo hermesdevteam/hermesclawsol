@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
           <span className="bg-gradient-to-r from-[#7c3aed] to-[#22c55e] bg-clip-text text-transparent">
-            HermesClawSol
+            HermesClaw
           </span>
         </h1>
         <p className="text-lg text-[#64748b] max-w-2xl mx-auto mb-6">
@@ -47,7 +47,7 @@ export default function Home() {
             className="px-4 py-2 border border-[#1e1e2e] text-white rounded-lg text-sm hover:border-[#22c55e] transition-colors">
             Follow on X
           </a>
-          <a href="https://t.me/HermesClawSolBot" target="_blank" rel="noopener noreferrer"
+          <a href="https://t.me/HermesClawBot" target="_blank" rel="noopener noreferrer"
             className="px-4 py-2 border border-[#1e1e2e] text-white rounded-lg text-sm hover:border-[#22c55e] transition-colors">
             Telegram
           </a>

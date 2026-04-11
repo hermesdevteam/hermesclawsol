@@ -50,7 +50,7 @@ export class AgentLoop {
    * Start the autonomous loop.
    */
   async start(): Promise<void> {
-    console.log('[loop] HermesClawSol agent loop starting...');
+    console.log('[loop] HermesClaw agent loop starting...');
     console.log(`[loop] Treasury: ${this.treasury.address}`);
     console.log(`[loop] Interval: ${this.intervalMs / 1000 / 60 / 60}h`);
     console.log(`[loop] Programs in queue: ${PROGRAM_QUEUE.length}`);

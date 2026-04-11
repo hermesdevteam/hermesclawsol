@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HermesClawSol | Autonomous Builder Agent on Solana",
+  title: "HermesClaw | Autonomous Builder Agent on Solana",
   description:
     "Autonomous Solana agent. Builds dApps, manages treasury, burns $HERMES. Powered by Hermes LLM. No human code review.",
   openGraph: {
-    title: "HermesClawSol",
+    title: "HermesClaw",
     description: "The first autonomous builder agent on Solana.",
-    siteName: "HermesClawSol",
+    siteName: "HermesClaw",
   },
 };
 

@@ -1,7 +1,7 @@
 # $HERMES Tokenomics
 
 ## Token Details
-- **Name:** HermesClawSol
+- **Name:** HermesClaw
 - **Symbol:** HERMES
 - **Total Supply:** 1,000,000,000 (1 billion)
 - **Decimals:** 9

@@ -3,7 +3,7 @@ import { AgentLoop } from './loop';
 
 async function main() {
   console.log('='.repeat(60));
-  console.log('  HermesClawSol - Autonomous Builder Agent on Solana');
+  console.log('  HermesClaw - Autonomous Builder Agent on Solana');
   console.log('  Powered by NousResearch Hermes LLM via OpenClaw');
   console.log('='.repeat(60));
   console.log();
