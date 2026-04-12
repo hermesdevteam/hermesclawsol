@@ -15,14 +15,13 @@ export default function Home() {
     >
       <div>
         <img
-          src="/logo.png"
-          alt="HermesClaw"
+          src="/bouncer.png"
+          alt="HermesClaw Bouncer"
           style={{
-            width: 100,
-            height: 100,
-            borderRadius: "50%",
+            width: 160,
+            height: 160,
+            borderRadius: "16px",
             margin: "0 auto 1.5rem",
-            border: "2px solid #1e1e2e",
             boxShadow: "0 0 60px rgba(124, 58, 237, 0.3), 0 0 120px rgba(34, 197, 94, 0.15)",
           }}
         />

@@ -107,14 +107,13 @@ function VerifyInner() {
       <div style={{ maxWidth: 420, width: "100%", textAlign: "center" }}>
         {/* Logo */}
         <img
-          src="/logo.png"
-          alt="HermesClaw"
+          src="/bouncer.png"
+          alt="HermesClaw Bouncer"
           style={{
-            width: 80,
-            height: 80,
-            borderRadius: "50%",
+            width: 120,
+            height: 120,
+            borderRadius: "16px",
             margin: "0 auto 1.5rem",
-            border: "2px solid #1e1e2e",
             boxShadow: "0 0 40px rgba(124, 58, 237, 0.3), 0 0 80px rgba(34, 197, 94, 0.15)",
           }}
         />
@@ -342,12 +341,12 @@ export default function VerifyPage() {
                 background: "#0a0a0f",
               }}>
                 <img
-                  src="/logo.png"
-                  alt="HermesClaw"
+                  src="/bouncer.png"
+                  alt="HermesClaw Bouncer"
                   style={{
-                    width: 80,
-                    height: 80,
-                    borderRadius: "50%",
+                    width: 100,
+                    height: 100,
+                    borderRadius: "16px",
                     animation: "pulse 2s ease-in-out infinite",
                   }}
                 />
