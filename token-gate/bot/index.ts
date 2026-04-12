@@ -24,9 +24,9 @@ bot.command("start", async (ctx) => {
     const hasBalance = await checkBalance(existing.wallet);
     if (hasBalance) {
       await ctx.reply(
-        `You're already verified!\n\n` +
+        `\u{2705} You're already verified!\n\n` +
         `Wallet: \`${existing.wallet.slice(0, 6)}...${existing.wallet.slice(-4)}\`\n\n` +
-        `Join the $HERMES holders chat:\n${INVITE_LINK}`,
+        `Join the $HERMES holders chat:\n\u{1F449} ${INVITE_LINK}`,
         { parse_mode: "Markdown" }
       );
       return;
@@ -38,9 +38,9 @@ bot.command("start", async (ctx) => {
 
   await ctx.reply(
     `Welcome to the $HERMES Token Gate!\n\n` +
-    `To join the holders-only chat, verify you hold $HERMES tokens on Solana:\n\n` +
-    `${verifyUrl}\n\n` +
-    `Connect your Solana wallet, sign a message, and if you hold $HERMES, you'll get an invite link!`
+    `To join the holders-only chat, verify you hold $HERMES tokens:\n\n` +
+    `\u{1F449} ${verifyUrl}\n\n` +
+    `Connect your wallet, sign a message, and if you hold $HERMES on Solana, you'll get an invite link!`
   );
 });
 
@@ -133,7 +133,7 @@ setInterval(async () => {
     try {
       await bot.api.sendMessage(
         Number(telegramUserId),
-        `Verified! Your wallet holds $HERMES.\n\nJoin the holders chat:\n${INVITE_LINK}\n\nWelcome to HermesClaw!`
+        `\u{2705} Verified! Your wallet holds $HERMES.\n\nHere's your invite to the holders chat:\n\u{1F449} ${INVITE_LINK}\n\nWelcome to HermesClaw!`
       );
       markInviteSent(telegramUserId);
       console.log(`[bouncer] Sent invite to ${telegramUserId}`);
