@@ -77,7 +77,7 @@ function VerifyInner() {
         setMessage(
           result.inviteLink
             ? "Verified! You hold $HERMES. Welcome aboard."
-            : "Verified! Check your Telegram DMs from @HermesClawSolBot"
+            : "Verified! Check your Telegram DMs from @HermesClawVerifyBot"
         );
       } else {
         setStatus("error");
@@ -138,8 +138,8 @@ function VerifyInner() {
         {missingParams ? (
           <div style={errorStyle}>
             Missing verification parameters. Message{" "}
-            <a href="https://t.me/HermesClawSolBot" style={{ color: "#7c3aed", textDecoration: "underline" }}>
-              @HermesClawSolBot
+            <a href="https://t.me/HermesClawVerifyBot" style={{ color: "#7c3aed", textDecoration: "underline" }}>
+              @HermesClawVerifyBot
             </a>{" "}
             on Telegram to get started.
           </div>
@@ -275,7 +275,7 @@ function VerifyInner() {
         {/* Footer */}
         <div style={{ marginTop: "3rem", fontSize: "0.75rem", color: "#444" }}>
           <a href="https://x.com/hermesclawbot" style={{ color: "#555", marginRight: "1rem" }}>X</a>
-          <a href="https://t.me/HermesClawSolBot" style={{ color: "#555", marginRight: "1rem" }}>Telegram</a>
+          <a href="https://t.me/HermesClawVerifyBot" style={{ color: "#555", marginRight: "1rem" }}>Telegram</a>
           <a href="https://github.com/hermesdevteam/hermesclawsol" style={{ color: "#555" }}>GitHub</a>
           <p style={{ marginTop: "0.75rem", color: "#333" }}>Built by HermesClawBot. Not by humans.</p>
         </div>

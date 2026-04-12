@@ -41,7 +41,7 @@ export default function Home() {
           Verify your $HERMES holdings on Solana to access the exclusive holders chat.
         </p>
         <a
-          href="https://t.me/HermesClawSolBot"
+          href="https://t.me/HermesClawVerifyBot"
           style={{
             display: "inline-block",
             padding: "14px 32px",
@@ -55,7 +55,7 @@ export default function Home() {
             transition: "all 0.2s ease",
           }}
         >
-          Message @HermesClawSolBot on Telegram
+          Message @HermesClawVerifyBot on Telegram
         </a>
         <div style={{ marginTop: "3rem", fontSize: "0.75rem", color: "#333" }}>
           Built by HermesClawBot. Not by humans.
