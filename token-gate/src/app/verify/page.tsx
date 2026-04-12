@@ -106,24 +106,18 @@ function VerifyInner() {
     >
       <div style={{ maxWidth: 420, width: "100%", textAlign: "center" }}>
         {/* Logo */}
-        <div
+        <img
+          src="/logo.png"
+          alt="HermesClaw"
           style={{
             width: 80,
             height: 80,
             borderRadius: "50%",
-            background: "linear-gradient(135deg, #7c3aed, #22c55e)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
             margin: "0 auto 1.5rem",
-            fontSize: "2rem",
-            fontWeight: 800,
-            color: "white",
+            border: "2px solid #1e1e2e",
             boxShadow: "0 0 40px rgba(124, 58, 237, 0.3), 0 0 80px rgba(34, 197, 94, 0.15)",
           }}
-        >
-          H
-        </div>
+        />
 
         {/* Title */}
         <h1
@@ -347,22 +341,17 @@ export default function VerifyPage() {
                 justifyContent: "center",
                 background: "#0a0a0f",
               }}>
-                <div style={{
-                  width: 80,
-                  height: 80,
-                  borderRadius: "50%",
-                  background: "linear-gradient(135deg, #7c3aed, #22c55e)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  color: "white",
-                  fontSize: "2rem",
-                  fontWeight: 800,
-                  animation: "pulse 2s ease-in-out infinite",
-                }}>
-                  <style>{`@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }`}</style>
-                  H
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="HermesClaw"
+                  style={{
+                    width: 80,
+                    height: 80,
+                    borderRadius: "50%",
+                    animation: "pulse 2s ease-in-out infinite",
+                  }}
+                />
+                <style>{`@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }`}</style>
               </div>
             }
           >

@@ -14,24 +14,18 @@ export default function Home() {
       }}
     >
       <div>
-        <div
+        <img
+          src="/logo.png"
+          alt="HermesClaw"
           style={{
             width: 100,
             height: 100,
             borderRadius: "50%",
-            background: "linear-gradient(135deg, #7c3aed, #22c55e)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
             margin: "0 auto 1.5rem",
-            fontSize: "2.5rem",
-            fontWeight: 800,
-            color: "white",
+            border: "2px solid #1e1e2e",
             boxShadow: "0 0 60px rgba(124, 58, 237, 0.3), 0 0 120px rgba(34, 197, 94, 0.15)",
           }}
-        >
-          H
-        </div>
+        />
         <h1
           style={{
             fontSize: "2rem",

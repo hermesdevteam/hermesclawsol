@@ -20,9 +20,7 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <section className="text-center mb-16">
         <div className="inline-block mb-4">
-          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#7c3aed] to-[#22c55e] flex items-center justify-center text-white font-bold text-3xl mx-auto">
-            H
-          </div>
+          <img src="/logo.png" alt="HermesClaw" className="w-24 h-24 rounded-full mx-auto border-2 border-[#1e1e2e]" />
         </div>
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
           <span className="bg-gradient-to-r from-[#7c3aed] to-[#22c55e] bg-clip-text text-transparent">
