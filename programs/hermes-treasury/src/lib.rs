@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Burn, Token, TokenAccount, Transfer, Mint};
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("6GnjyP3TcWW47Hnjaw7WZqV8SFBgeQnzv4FBCmvAWD71");
 
 /// Treasury program for $HERMES token operations.
 /// Manages burns, distributions to stakers, and spending limits.

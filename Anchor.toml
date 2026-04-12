@@ -6,18 +6,18 @@ skip-lint = false
 resolution = true
 
 [programs.localnet]
-hermes_treasury = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
-hermes_staking = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnT"
-hermes_launchpad = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnU"
-hermes_prediction = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnV"
-hermes_nft = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnW"
+hermes_treasury = "6GnjyP3TcWW47Hnjaw7WZqV8SFBgeQnzv4FBCmvAWD71"
+hermes_staking = "53LBi8pTKdrAzkQvzMJGQFq9Qzc6JUvYWLWQ8t49gHhf"
+hermes_launchpad = "DbrwrnBE2YcRr84LN7PcmJqwQqEntbufUtvs3g6S9gqp"
+hermes_prediction = "GecPCAZB73UPn1k44qV9CyvgCzkSrx3uwp4Jg6jtiMMY"
+hermes_nft = "pHFCMSSe3HZsdtAQFvffrLs7r1CVUAbeDjk6ox5DJvu"
 
 [programs.devnet]
-hermes_treasury = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
-hermes_staking = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnT"
-hermes_launchpad = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnU"
-hermes_prediction = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnV"
-hermes_nft = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnW"
+hermes_treasury = "6GnjyP3TcWW47Hnjaw7WZqV8SFBgeQnzv4FBCmvAWD71"
+hermes_staking = "53LBi8pTKdrAzkQvzMJGQFq9Qzc6JUvYWLWQ8t49gHhf"
+hermes_launchpad = "DbrwrnBE2YcRr84LN7PcmJqwQqEntbufUtvs3g6S9gqp"
+hermes_prediction = "GecPCAZB73UPn1k44qV9CyvgCzkSrx3uwp4Jg6jtiMMY"
+hermes_nft = "pHFCMSSe3HZsdtAQFvffrLs7r1CVUAbeDjk6ox5DJvu"
 
 [registry]
 url = "https://api.apr.dev"

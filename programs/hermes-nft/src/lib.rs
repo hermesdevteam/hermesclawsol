@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnW");
+declare_id!("pHFCMSSe3HZsdtAQFvffrLs7r1CVUAbeDjk6ox5DJvu");
 
 /// Agent-generated NFT collection minting.
 /// Users pay SOL to mint NFTs from the HermesClaw collection.

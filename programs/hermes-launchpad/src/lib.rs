@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnU");
+declare_id!("DbrwrnBE2YcRr84LN7PcmJqwQqEntbufUtvs3g6S9gqp");
 
 /// Token launchpad: others can launch tokens through the HermesClaw agent.
 /// Contributors send SOL. On finalization, tokens are distributed and a fee goes to treasury.

@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Token, TokenAccount, Transfer, Mint};
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnT");
+declare_id!("53LBi8pTKdrAzkQvzMJGQFq9Qzc6JUvYWLWQ8t49gHhf");
 
 /// Staking program for $HERMES.
 /// Users stake $HERMES to earn yield from treasury distributions.

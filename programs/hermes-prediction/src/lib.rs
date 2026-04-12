@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Token, TokenAccount, Transfer, Mint};
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnV");
+declare_id!("GecPCAZB73UPn1k44qV9CyvgCzkSrx3uwp4Jg6jtiMMY");
 
 /// Binary prediction markets with $HERMES.
 /// Users bet on YES/NO outcomes. Agent or oracle resolves markets.
